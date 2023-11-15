@@ -8,3 +8,8 @@ let pokemonList = [
     {name: 'Bulbasaur', height: 1, types: ['grass', 'poison'] }
 ];
 
+//for loop to print out all pokemon in list
+for (let i = 0; i < pokemonList.length; i++) {
+    document.write(pokemonList[i].name + ',' + ' ' + '(height' + ' ' + pokemonList[i].height + ')');
+
+}
