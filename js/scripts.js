@@ -10,4 +10,8 @@ let pokemonList = [
 for (let i = 0; i < pokemonList.length; i++) {
     document.write(pokemonList[i].name + ',' + ' ' + '(height' + ' ' + pokemonList[i].height + ')');
 
+    //if statment to check if pokemon are taller then 2 units
+    if (pokemonList[i].height > 2) {
+        document.write(' - Wow, that\'s big!');
+    }
 }
