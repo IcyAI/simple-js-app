@@ -8,7 +8,13 @@ let pokemonList = [
     { name: 'Bulbasaur', height: 1, types: ['grass', 'poison'] }
 ];
 
+function getAll () {
+    return pokemonList;
+}
 
+function add (item) {
+    pokemonList.push(item);
+}
 
 
     document.write(Pokemon + '<br/>');
