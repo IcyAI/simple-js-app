@@ -42,3 +42,8 @@ function printpokemonList(pokemon) {
     }
 }
     
+   let list = pokemonRepository.getAll()
+
+    list.forEach(printpokemonList);
+
+
