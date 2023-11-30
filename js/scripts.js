@@ -16,6 +16,10 @@ function add (item) {
     pokemonList.push(item);
 }
 
+return {
+    getAll: getAll,
+    add: add
+};
 
     document.write(Pokemon + '<br/>');
 })();
