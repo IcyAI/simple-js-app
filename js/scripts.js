@@ -21,7 +21,6 @@ return {
     add: add
 };
 
-    document.write(Pokemon + '<br/>');
 })();
 
 
