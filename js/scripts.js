@@ -1,4 +1,6 @@
 
+let pokemonRepository = (function () {
+
 //array list of all my pokemon and attributes
 let pokemonList = [
     { name: 'Charmander', height: 2, types: ['fire'] },
@@ -14,6 +16,7 @@ for (let i = 0; i < pokemonList.length; i++) {
     if (pokemonList[i].height <= 2) { 
 
     document.write(Pokemon + '<br/>');
+})();
 
     }
 
