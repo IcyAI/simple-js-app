@@ -20,10 +20,21 @@ return {
     getAll: getAll,
     add: add
 };
+function addListItem(pokemon) {
 
 })();
+    let pokemonList = document.querySelector(".pokemon-list");
 
+    let listpokemon = document.createElement("li");
 
+    let button = document.createElement("button");
+
+    button.innerText = pokemon.name;
+    button.classList.add("button-class");
+
+    listpokemon.appendChild(button);
+
+    pokemonList.appendChild(listpokemon);
 
 
 
