@@ -16,13 +16,8 @@ function add (item) {
     pokemonList.push(item);
 }
 
-return {
-    getAll: getAll,
-    add: add
-};
 function addListItem(pokemon) {
 
-})();
     let pokemonList = document.querySelector(".pokemon-list");
 
     let listpokemon = document.createElement("li");
@@ -39,6 +34,14 @@ function addListItem(pokemon) {
 
 
 }
+
+return {
+    getAll: getAll,
+    add: add,
+    addListItem: addListItem
+};
+
+})();
 
 
 
