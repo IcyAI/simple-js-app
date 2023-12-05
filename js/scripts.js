@@ -32,7 +32,10 @@ function addListItem(pokemon) {
     pokemonList.appendChild(listpokemon);
 
 
+}
 
+function showDetails(pokemon) {
+    console.log(pokemon.name)
 }
 
 return {
