@@ -31,6 +31,7 @@ function addListItem(pokemon) {
 
     pokemonList.appendChild(listpokemon);
 
+    button.addEventListener('click', showDetails(pokemon));
 
 }
 
