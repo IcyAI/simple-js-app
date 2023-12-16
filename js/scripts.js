@@ -60,11 +60,12 @@ let pokemonRepository = (function () {
       });
     }
   
+
     function showDetails(item) {
-      pokemonRepository.loadDetails(item).then(function () {
-        console.log(item);
-      });
-    }
+    pokemonRepository.loadDetails(item).then(function () {
+      showModal(item);
+    });
+   }
   
   function showModal(pokemon) {
 
