@@ -128,8 +128,11 @@ window.addEventListener('keydown', (e) => {
       addListItem: addListItem,
       loadList: loadList,
       loadDetails: loadDetails,
-      showDetails: showDetails
+      showDetails: showDetails,
+      showModal: showModal,
+      hideModal: hideModal
     };
+
   })();
   
   
@@ -137,4 +140,5 @@ window.addEventListener('keydown', (e) => {
     pokemonRepository.getAll().forEach(function (pokemon) {
       pokemonRepository.addListItem(pokemon);
     });
+
   });
