@@ -82,6 +82,14 @@ let pokemonRepository = (function () {
     closeButtonElement.innerText= 'x';
     closeButtonElement.addEventListener('click', hideModal);
 
+    let titleElement= document.createElement('h1');
+    titleElement.innerText= pokemon.name;
+
+    let contentElement= document.createElement('p');
+    contentElement.innerText= 'Height:' + ' ' + pokemon.height;
+
+    let imageElement= document.createElement('img');
+    imageElement.src= pokemon.imageUrl;
 });
 
 
