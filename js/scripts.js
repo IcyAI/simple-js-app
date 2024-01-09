@@ -26,6 +26,8 @@ let pokemonRepository = (function () {
       button.classList.add("btn", "btn-primary");
       button.setAttribute("data-toggle","modal");
       button.setAttribute("data-target","#exampleModal");
+      button.classList.add("row");
+      button.classList.add("col-2");
       listpokemon.appendChild(button);
       pokemonList.appendChild(listpokemon);
      button.addEventListener("click", function(event) {
