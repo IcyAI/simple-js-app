@@ -81,59 +81,20 @@ let pokemonRepository = (function () {
 
     
     modalTitle.empty();
-    modalBody.empty();
+    modalbody.empty();
     
 
     let nameElement = $("<h1>" + pokemon.name + "</h1>");
 
-    let imageElementFront = $('<img class="modal-img" style="width:50%"></img>');
-    imageElementFront.attr("src", pokemon.imagurl);
+    let imageElementFront = $('<img class="modal-img" style="width:50%">');
+    imageElementFront.attr("src", pokemon.imageUrl);
 
     let heightElement = $("<p>" + "height :" + pokemon.height + "<p>");
 
     modalTitle.append(nameElement);
-    modalBody.append(imageElementFront);
-    modalBody.append(heightElement);
+    modalbody.append(imageElementFront);
+    modalbody.append(heightElement);
 
-    
-  //  let modalContainer= document.querySelector('#modal-container');
-
-    //Clear all existing modal content
-   // modalContainer.innerHTML= '';
-
-  //  let modal= document.createElement('div');
-  //  modal.classList.add('modal');
-
-    //Add new modal content
-  //  let closeButtonElement= document.createElement('button');
-    // closeButtonElement.classList.add('modal-close');
-    // closeButtonElement.innerText= 'x';
-    // closeButtonElement.addEventListener('click', hideModal);
-
-    // let titleElement= document.createElement('h1');
-    // titleElement.innerText= pokemon.name;
-
-    // let contentElement= document.createElement('p');
-    // contentElement.innerText= 'Height:' + ' ' + pokemon.height;
-
-    // let imageElement= document.createElement('img');
-    // imageElement.src= pokemon.imageUrl;
-
-    // modal.appendChild(closeButtonElement);
-    // modal.appendChild(titleElement);
-    // modal.appendChild(contentElement);
-    // modal.appendChild(imageElement);
-    // modalContainer.appendChild(modal);
-
-    // modalContainer.classList.add('is-visible');
-
-    // modalContainer.addEventListener('click', (e) => {
-    //     //Since this is also triggered when clicking inside the modal, we only want to close if the user clicks directly on the overlay
-    //     let target= e.target;
-    //     if(target === modalContainer) {
-    //         hideModal();
-    //     }
-    // });
 }
 
 function hideModal() {
