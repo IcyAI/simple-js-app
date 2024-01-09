@@ -98,3 +98,9 @@ body {
   .modal p {
     margin-bottom: 0;
   }
+
+  #exampleModal {
+    display: none;
+    }
+
+  }
