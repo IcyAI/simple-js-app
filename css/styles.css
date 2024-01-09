@@ -107,4 +107,12 @@ body {
     width: 100%;
     height: 80px;
   }  
+  .navbar-brand {
+    font-size: 40px;
+  }
+
+  .nav-link {
+    font-size: 40px;
+    background-color: #007bbf; /* Green */
+    border-radius: 0.25rem;
   }
