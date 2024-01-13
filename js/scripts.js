@@ -22,12 +22,11 @@ let pokemonRepository = (function () {
       listpokemon.classList.add("list-group-item");
       let button = document.createElement("button");
       button.innerText = pokemon.name;
-      //button.classList.add("button-class");
       button.classList.add("btn", "btn-primary");
       button.setAttribute("data-toggle","modal");
       button.setAttribute("data-target","#exampleModal");
-      button.classList.add("row");
       button.classList.add("col-2");
+      button.classList.add("button-class");
       listpokemon.appendChild(button);
       pokemonList.appendChild(listpokemon);
      button.addEventListener("click", function(event) {
