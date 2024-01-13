@@ -115,4 +115,7 @@ body {
     font-size: 40px;
     background-color: #007bbf; /* Green */
     border-radius: 0.25rem;
+  }  .nav-image{
+    width: 70px;
+    height: 70px;
   }
