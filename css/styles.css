@@ -117,7 +117,12 @@ body {
     font-size: 40px;
     background-color: #007bbf; /* Green */
     border-radius: 0.25rem;
-  }  .nav-image{
+  }
+
+  .list-group-item {
+    background-color: #000;
+  }
+
   .nav-image{
     width: 70px;
     height: 70px;
